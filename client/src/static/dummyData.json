@@ -1,0 +1,141 @@
+{
+  "movie_list": [
+    {
+      "id": 1,
+      "title": "test1",
+      "titleEng": "title1",
+      "directorName": "directorName1",
+      "actorName": "actorName1",
+      "releaseDate": "2022-01-01",
+      "genre": [
+        "action",
+        "comedy"
+      ],
+      "posterImg": "./sample.jpg",
+      "plot": "plot",
+      "runtime": "runtime",
+      "rating": "rating",
+      "created_at": "2022-01-01",
+      "updated_at": "2022-01-01"
+    },
+    {
+      "id": 2,
+      "title": "test2",
+      "titleEng": "title2",
+      "directorName": "directorName2",
+      "actorName": "actorName2",
+      "releaseDate": "2022-01-02",
+      "genre": [
+        "romance"
+      ],
+      "posterImg": "./sample.jpg",
+      "plot": "plot",
+      "runtime": "runtime",
+      "rating": "rating",
+      "created_at": "2022-01-01",
+      "updated_at": "2022-01-01"
+    },
+    {
+      "id": 3,
+      "title": "test3",
+      "titleEng": "title3",
+      "directorName": "directorName3",
+      "actorName": "actorName3",
+      "releaseDate": "2022-01-03",
+      "genre": [
+        "mello"
+      ],
+      "posterImg": "./sample.jpg",
+      "plot": "plot",
+      "runtime": "runtime",
+      "rating": "rating",
+      "created_at": "2022-01-01",
+      "updated_at": "2022-01-01"
+    },
+    {
+      "id": 4,
+      "title": "test4",
+      "titleEng": "title4",
+      "directorName": "directorName4",
+      "actorName": "actorName4",
+      "releaseDate": "2022-01-04",
+      "genre": [
+        "action"
+      ],
+      "posterImg": "./sample.jpg",
+      "plot": "plot",
+      "runtime": "runtime",
+      "rating": "rating",
+      "created_at": "2022-01-01",
+      "updated_at": "2022-01-01"
+    },
+    {
+      "id": 5,
+      "title": "test5",
+      "titleEng": "title5",
+      "directorName": "directorName4",
+      "actorName": "actorName4",
+      "releaseDate": "2022-01-04",
+      "genre": [
+        "action"
+      ],
+      "posterImg": "./sample.jpg",
+      "plot": "plot",
+      "runtime": "runtime",
+      "rating": "rating",
+      "created_at": "2022-01-01",
+      "updated_at": "2022-01-01"
+    },
+    {
+      "id": 6,
+      "title": "test6",
+      "titleEng": "title6",
+      "directorName": "directorName4",
+      "actorName": "actorName4",
+      "releaseDate": "2022-01-04",
+      "genre": [
+        "action"
+      ],
+      "posterImg": "./sample.jpg",
+      "plot": "plot",
+      "runtime": "runtime",
+      "rating": "rating",
+      "created_at": "2022-01-01",
+      "updated_at": "2022-01-01"
+    },
+    {
+      "id": 7,
+      "title": "test7",
+      "titleEng": "title7",
+      "directorName": "directorName4",
+      "actorName": "actorName4",
+      "releaseDate": "2022-01-04",
+      "genre": [
+        "action"
+      ],
+      "posterImg": "./sample.jpg",
+      "plot": "plot",
+      "runtime": "runtime",
+      "rating": "rating",
+      "created_at": "2022-01-01",
+      "updated_at": "2022-01-01"
+    },
+    {
+      "id": 8,
+      "title": "test4",
+      "titleEng": "title4",
+      "directorName": "directorName4",
+      "actorName": "actorName4",
+      "releaseDate": "2022-01-04",
+      "genre": [
+        "action"
+      ],
+      "posterImg": "./sample.jpg",
+      "plot": "plot",
+      "runtime": "runtime",
+      "rating": "rating",
+      "created_at": "2022-01-01",
+      "updated_at": "2022-01-01"
+    }
+  ]
+}

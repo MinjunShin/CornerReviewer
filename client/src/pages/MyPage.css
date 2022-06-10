@@ -1,0 +1,119 @@
+/* 테스팅용 border */
+.mypage {
+  display: flex;
+  align-items: center;
+}
+
+.mypage-container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.myprofile-info-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  border-bottom: 5px solid gray;
+}
+
+.myprofile-img-container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.myprofile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.info-container {
+  width: 600px;
+  min-width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+}
+
+.info-container > div:nth-child(-n+2) {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+}
+
+.info-container span {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.username-update-container span:first-child{
+  font-size: 40px;
+  color: white;
+}
+.username-update-container span:last-child{
+  font-size: 20px;
+  color: gray;
+}
+
+.mygenre-container {
+  flex : 2;
+  width: 600px;
+}
+
+.mygenre-desc > span {
+  font-size: 30px;
+  color: white;
+}
+
+.mygenre-box {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mygenre-box button {
+  width: 100px;
+  min-width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #2d9af0;
+  border: 1px solid #2d9af0;
+  color: #f5f5f5;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dashBoard-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  border: 1px red solid;
+}
+
+@media (max-width: 915px) {
+  .myprofile-info-container {
+    flex-direction: column;
+  }
+}

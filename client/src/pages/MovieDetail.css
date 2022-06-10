@@ -1,0 +1,305 @@
+
+.movieDetail_containter {
+  margin: 1.5rem 3rem;
+  padding: 0rem 3rem 0rem 3rem;
+  color : white;
+}
+
+.movieDetail_box {
+  display: flex;
+  align-items: center;
+}
+
+.poster_img_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.poster_img {
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+}
+
+.avg_score {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.selectedMovie_info {
+  margin-left : 2rem;
+}
+
+.selectedMovie_genres {
+  display: flex;
+  margin-left: 1rem;
+  flex-wrap: wrap;
+}
+
+.selectedMovie_genre_box {
+  margin-bottom: 1rem;
+  display: flex;
+  width: 120px;
+  height: 40px;
+  background-color: var(--button-blue-color);
+  border: 1px solid var(--button-blue-color);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.info_text, .info_title, .selectedMovie_genres {
+  margin-bottom: 1.5rem;
+}
+
+.info_plot {
+  font-size: 0.9rem;
+  color:rgb(121, 121, 121);
+}
+
+.info_title {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.info_to_comment_divider {
+  margin: 1.5rem 0rem;
+  height: 3px;
+  background-color: #8C92AC;
+}
+
+.review_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.review_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #8C92AC;
+}
+
+.write_review_btn {
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+  background-color: var(--button-blue-color);
+  color: white;
+  font-weight: 600;
+}
+
+.review_box_container {
+  height: 100%;
+  border-radius: 7px;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  background-color: var(--review-box-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.no_review_box > .no_review_text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #8C92AC;
+  background-color: transparent;
+  padding-bottom: 1rem;
+}
+
+.no_review_img {
+  width: 80px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.review_box {
+  border-bottom: 1px solid gray;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.review_userInfo_header {
+  display: flex;  
+  flex: 1 0 0;
+  justify-content: space-between;
+  background-color: var(--review-box-color);
+}
+
+.profile_name_wrapper, .review_profile_box {
+  display: flex;
+  background-color: var(--review-box-color);
+  border: none;
+  align-items: center;
+  justify-self: center;
+}
+
+.review_profile_img {
+  background-color: var(--review-box-color);
+  width: 45px;
+  height: 45px;
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+
+.review_userInfo_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start flex;
+  background-color: var(--review-box-color);
+}
+
+.review_userInfo {
+  background-color: var(--review-box-color);
+  font-size:0.9rem;
+}
+
+.review_userInfo_wrapper > .userName {
+  font-weight: bold;
+}
+
+.review_userInfo_wrapper > .creatd_At {
+  font-size: 0.8rem;
+  color: #8C92AC;
+  font-weight: bold;
+} 
+
+.review_box_container .review_box {
+  display: flex;
+  margin: 0.5rem 1rem;
+  background-color: var(--review-box-color);
+}
+
+.review_score {
+  background-color: var(--review-box-color);
+  border: none;
+  display: flex;
+  padding: 0.5rem;
+}
+
+fieldset {
+  display: flex;
+  width: 90px;
+}
+
+.review_score fieldset, legend { 
+  background-color: transparent;
+}
+
+fieldset > legend {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #8C92AC;
+}
+
+.review_score span {
+  position: relative;
+  width: max-content;
+  text-shadow: 0 0 0 #f0f0f0;
+  background-color: transparent;
+  font-size: 0.7rem;
+}
+
+.no_review_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--review-box-color);
+  border-radius: 7px;
+  padding: 1rem;
+}
+
+.empty_star {
+  color:transparent;
+  text-shadow: 0 0 0 #f0f0f0;
+}
+
+.review_user_content {
+  background-color: var(--review-box-color);
+  margin: 1rem 1rem;
+  font-size: 0.9rem;
+}
+
+/* 모바일 반응형 CSS.
+다른 부분(메인페이지 등)과 달리, 
+상세 페이지만 태블릿 크기 정도로 될 경우 바로 변경되도록 함. */
+
+@media (max-width: 920px) {
+  .movieDetail_containter {
+    margin: 1.5rem 0rem;
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .movieDetail_containter > .movieDetail_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem;
+  }
+
+  .movieDetail_box > .poster_img_box {
+    margin-bottom : 1.5rem;
+  }
+
+  .poster_img {
+    width: 200px;
+  }
+
+  .selectedMovie_info {
+    margin: 0.5rem 0.2rem;
+  }
+  
+  .selectedMovie_info > .info_title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .selectedMovie_info > .selectedMovie_genres {
+    margin: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .review_box_container {
+    margin: 0.3rem 0.3rem;
+  }
+
+  .write_review_box {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .review_box .review_profile_box {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .review_box_container > .review_box {
+    margin: 0.2rem 0.2rem;
+  }
+
+  .review_userInfo_wrapper > .creatd_At {
+    font-size: 0.6rem;
+  } 
+
+  .review_user_content {
+    margin: 0.5rem 0.5rem;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "movie_list": [
+    {
+      "id": 1,
+      "title": "test1",
+      "titleEng": "title1",
+      "directorName": "directorName1",
+      "actorName": "actorName1",
+      "releaseDate": "2022-01-01",
+      "score": "1",
+      "genre": [
+        "action",
+        "comedy"
+      ],
+      "posterImg": "/sample.jpg",
+      "plot": "plot",
+      "runtime": "runtime",
+      "rating": "rating",
+      "created_at": "2022-01-01",
+      "updated_at": "2022-01-01"
+    },
+    {
+      "id": 2,
+      "title": "test2",
+      "titleEng": "title2",
+      "directorName": "directorName2",
+      "actorName": "actorName2",
+      "releaseDate": "2022-01-02",
+      "score": "3",
+      "genre": [
+        "romance"
+      ],
+      "posterImg": "/sample2.jpg",
+      "plot": "plot",
+      "runtime": "runtime",
+      "rating": "rating",
+      "created_at": "2022-01-01",
+      "updated_at": "2022-01-01"
+    },
+    {
+      "id": 3,
+      "title": "test3",
+      "titleEng": "title3",
+      "directorName": "directorName3",
+      "actorName": "actorName3",
+      "releaseDate": "2022-01-03",
+      "score": "2",
+      "genre": [
+        "mello"
+      ],
+      "posterImg": "/sample3.jpeg",
+      "plot": "plot",
+      "runtime": "runtime",
+      "rating": "rating",
+      "created_at": "2022-01-01",
+      "updated_at": "2022-01-01"
+    },
+    {
+      "id": 4,
+      "title": "test4",
+      "titleEng": "title4",
+      "directorName": "directorName4",
+      "actorName": "actorName4",
+      "releaseDate": "2022-01-04",
+      "score": "5",
+
+      "genre": [
+        "action"
+      ],
+      "posterImg": "/sample4.jpeg",
+      "plot": "plot",
+      "runtime": "runtime",
+      "rating": "rating",
+      "created_at": "2022-01-01",
+      "updated_at": "2022-01-01"
+    }
+  ]
+}
