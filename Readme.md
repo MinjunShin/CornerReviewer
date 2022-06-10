@@ -1,6 +1,9 @@
 ## 프로젝트 소개 
 CodeState BootCamp Part 06기에서 진행했던 First PJT입니다.
 
+### 프로젝트 Logs
+https://www.notion.so/621049/Corner-Reviewer-dc91c5fdebab465385d2cd3cf419e739
+
 ### LOGO
 > 
 ![image](https://user-images.githubusercontent.com/77579370/160454155-1b8d2d00-d4a1-49ce-ab81-6b34c20612fc.png)
