@@ -1,4 +1,5 @@
 ## 프로젝트 소개 
+CodeState BootCamp Part 06기에서 진행했던 First PJT입니다.
 
 ### LOGO
 > 
