@@ -20,7 +20,7 @@ Corner Reviewer에서 내가 본 영화들을,
 **by Code geeks**
 
 ### 프로젝트 Logs
-https://www.notion.so/621049/Corner-Reviewer-dc91c5fdebab465385d2cd3cf419e739
+https://621049.notion.site/Corner-Reviewer-dc91c5fdebab465385d2cd3cf419e739
 
 ### Final App Screen
 https://github.com/MinjunShin/CornerReviewer/wiki/Final-App-Screen
